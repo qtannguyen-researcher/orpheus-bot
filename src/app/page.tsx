@@ -19,8 +19,8 @@ export default function HomePage() {
             What the ear holds, the staff remembers.
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-paper/75">
-            Orpheus reads a sound file and writes notation. Drop mp3, aac, ogg, flac, alac, wav, or
-            aiff. Take home a PDF, Markdown, MusicXML, or MIDI.
+            Orpheus reads a sound file and writes notation. Drop mp3, aac, m4a, ogg, flac, alac, wav,
+            or aiff. Take home a PDF, Markdown, MusicXML, or MIDI.
           </p>
           <div className="mt-10 flex flex-wrap gap-3">
             <Link href="/studio" className="bg-gold px-5 py-3 text-sm text-ink hover:bg-gold-bright">

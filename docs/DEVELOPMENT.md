@@ -15,7 +15,7 @@ This file is the working agreement for what we build, in what order, and what â€
 
 Orpheus turns a sound file into a readable music sheet.
 
-A musician drops a recording (`*.mp3`, `*.aac` / `*.acc`, `*.ogg`, `*.flac`, `*.alac`, `*.wav`, `*.aiff`). Orpheus listens for pitch, onset, duration, tempo, and key, writes an internal score, and exports notation a human can take to a stand: **PDF**, **Markdown** (lead sheet + ABC), **MusicXML**, and later **MIDI**.
+A musician drops a recording (`*.mp3`, `*.aac` / `*.acc`, `*.m4a`, `*.ogg`, `*.flac`, `*.alac`, `*.wav`, `*.aiff`). Orpheus listens for pitch, onset, duration, tempo, and key, writes an internal score, and exports notation a human can take to a stand: **PDF**, **Markdown** (lead sheet + ABC), **MusicXML**, and later **MIDI**.
 
 The mythic namesake could move stone with a lyre. The product promise is narrower and more useful: **what the ear holds, the staff remembers.**
 

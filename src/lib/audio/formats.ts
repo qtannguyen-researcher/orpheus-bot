@@ -25,8 +25,11 @@ export const AUDIO_MIME_TYPES = [
   "audio/aac",
   "audio/x-aac",
   "audio/mp4",
+  "audio/x-mp4",
+  "audio/mp4a-latm",
   "audio/m4a",
   "audio/x-m4a",
+  "video/mp4",
   "audio/ogg",
   "audio/flac",
   "audio/x-flac",
@@ -89,7 +92,7 @@ export function validateUpload(input: {
     return {
       ok: false,
       code: "TYPE",
-      message: "Orpheus reads mp3, aac, ogg, flac, alac, wav, and aiff. .acc and .m4a are accepted aliases.",
+      message: "Orpheus reads mp3, aac, m4a, ogg, flac, alac, wav, and aiff. .acc is accepted as an AAC alias.",
     };
   }
 

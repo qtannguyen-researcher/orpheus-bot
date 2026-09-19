@@ -111,6 +111,7 @@ export const stories: Story[] = [
 export const inputFormats = [
   { ext: "mp3", label: "MP3" },
   { ext: "aac", label: "AAC" },
+  { ext: "m4a", label: "M4A" },
   { ext: "ogg", label: "OGG" },
   { ext: "flac", label: "FLAC" },
   { ext: "alac", label: "ALAC" },

@@ -2,7 +2,7 @@
 
 A monolith [Next.js](https://nextjs.org) app, deployed on [Vercel](https://vercel.com), using [Supabase](https://supabase.com) for auth, Postgres, storage, and realtime.
 
-Orpheus reads a sound file (`mp3`, `aac`, `ogg`, `flac`, `alac`, `wav`, `aiff`) and writes a music sheet (`pdf`, `md`, `musicxml`, `midi`).
+Orpheus reads a sound file (`mp3`, `aac`, `m4a`, `ogg`, `flac`, `alac`, `wav`, `aiff`) and writes a music sheet (`pdf`, `md`, `musicxml`, `midi`).
 
 The working agreement — phases, milestones, epics, user stories, tasks, architecture, and definition of done — is [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md).
 

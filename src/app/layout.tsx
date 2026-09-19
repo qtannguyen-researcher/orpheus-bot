@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     template: "%s · Orpheus",
   },
   description:
-    "Orpheus reads a recording and writes a music sheet — PDF, Markdown, MusicXML — from mp3, aac, ogg, flac, alac, wav, and aiff.",
+    "Orpheus reads a recording and writes a music sheet — PDF, Markdown, MusicXML — from mp3, aac, m4a, ogg, flac, alac, wav, and aiff.",
   icons: {
     icon: "/orpheus-mark.svg",
   },

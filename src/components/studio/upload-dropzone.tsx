@@ -52,7 +52,7 @@ export function UploadDropzone() {
       <label htmlFor={inputId} className="block cursor-pointer">
         <p className="font-serif text-2xl text-ink">Drop a recording</p>
         <p className="mt-2 text-sm text-muted">
-          mp3, aac, ogg, flac, alac, wav, aiff · 25 MB · storage and jobs arrive in M1
+          mp3, aac, m4a, ogg, flac, alac, wav, aiff · 25 MB · storage and jobs arrive in M1
         </p>
         <input
           id={inputId}
