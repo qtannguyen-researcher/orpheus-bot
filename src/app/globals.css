@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #14110e;
+  --ink-soft: #2a241c;
+  --paper: #f3ead9;
+  --paper-deep: #e6d8bc;
+  --gold: #b8892c;
+  --gold-bright: #d7ae4e;
+  --rule: #cbb892;
+  --muted: #6f675c;
+  --danger: #8f2d1f;
+  --ready: #3d5a3a;
+}
+
+@theme inline {
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-paper: var(--paper);
+  --color-paper-deep: var(--paper-deep);
+  --color-gold: var(--gold);
+  --color-gold-bright: var(--gold-bright);
+  --color-rule: var(--rule);
+  --color-muted: var(--muted);
+  --color-danger: var(--danger);
+  --color-ready: var(--ready);
+  --color-background: var(--ink);
+  --color-foreground: var(--paper);
+  --font-sans: var(--font-geist-sans);
+  --font-serif: var(--font-newsreader);
+  --font-mono: var(--font-geist-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--gold) 45%, transparent);
+  color: var(--ink);
+}
+
+.staff-mark {
+  width: 7.5rem;
+  height: 1.35rem;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent 3px,
+    color-mix(in srgb, var(--gold) 70%, transparent) 3px,
+    color-mix(in srgb, var(--gold) 70%, transparent) 4px
+  );
+}
